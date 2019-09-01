@@ -1,6 +1,6 @@
 #FP_2020-1_6295
 
-Tienes que poner tus prácticas por separado
-e incluir la carátula correcta.
-Aprovecha para poner más descripción en la segunda
-práctica y completar los comandos
+Tu segunda práctica sigue sin tener la
+carátula correcta, será penalizada y
+calificada sobre 8 cuando pongas la
+carátula correcta
