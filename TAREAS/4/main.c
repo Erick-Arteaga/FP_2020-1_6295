@@ -14,6 +14,6 @@ for (int i=1; i<argc;i++){
 }
 //el for sirve para sumar los elementos de la lista
 promedio=(float)suma/(argc-1);
-printf("%f\n",promedio);
+printf("%.2f\n",promedio);
 return 0;
 }
