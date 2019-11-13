@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main(int argc, char*argu[]){
-    int n1;
-    float n2, resultado;
+double main(int argc, char*argu[]){
+    double n1;
+    double n2, resultado;
     //se hace la convercion de texto a numero
-    n1=atoi(argu[1]);
-    n2=atoi(argu[2]);
+    n1=atof(argu[1]);
+    n2=atof(argu[2]);
     //se pregunta el primer argumento
     if(n1==1){
     //el numero uno significa que convertiremos de F a C
@@ -17,6 +17,6 @@ int main(int argc, char*argu[]){
         resultado=n2*1.8;
         resultado=resultado+32;
     }
-    printf("%.2f\n",resultado);
+    printf("%.2lf\n",resultado);
     return 0;
 }
